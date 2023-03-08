@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data_really.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Joe Tran"
+  },
+  "text": {
+    "more": "testing gephi output to sigma js template",
+    "intro": "project:  Eisai",
+    "title": "test_network"
+  },
+  "legend": {
+    "edgeLabel": "connections",
+    "colorLabel": "Profiled KOLs",
+    "nodeLabel": "kols"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "is_profiled",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 1,
+      "defaultLabelHoverColor": "#fff",
+      "labelSize": "fixed",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 18
+    },
+    "graphProperties": {
+      "maxEdgeSize": 20,
+      "minEdgeSize": 1,
+      "minNodeSize": 1,
+      "maxNodeSize": 12
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
